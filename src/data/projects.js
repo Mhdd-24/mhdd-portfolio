@@ -1,72 +1,72 @@
-import stonks from "../assets/images/stonks.png";
-import sendfrom from "../assets/images/sendform.jpg";
-import semicolon from "../assets/images/semicolon.png";
-import scroll from "../assets/images/scroll.jpg";
-import getv from "../assets/images/get-v.jpg";
-import psg from "../assets/images/psg.jpg";
+import wqp from "../assets/images/wqp.png";
+import teslaclone from "../assets/images/tesla-clone.png";
+import emess from "../assets/images/emess.png";
+import receipe from "../assets/images/receipe.png";
 import portfolio from "../assets/images/portfolio.png";
+import drd from "../assets/images/drd.png";
+import ds from "../assets/images/ds.png";
+import ibm from "../assets/images/ibm.jpg";
+import venmurasu from "../assets/images/venmurasu.jpg";
 
 export const projects = [
   {
     title: "E-MESS",
-    image: psg,
-    // link: "https://get-vulnerable.teshank.dev",
+    image: emess,
+    link: "https://e-mess.vercel.app/",
+    github: "https://github.com/Mhdd-24/E-mess",
     description:
-      "Built a full-stack PWA with real-time updates, JWT auth, and a CRM for student & mess management in the admin module(50 + daily active users).",
+      "Built a full-stack PWA with real-time updates & JWT auth.",
   },
   {
-    title: "Instagram Engagement Bot",
-    image: psg,
-    // link: "https://github.com/teshank2137/semicolon.md",
+    title: "Tesla Clone",
+    image: teslaclone,
+    link: "https://tesla-clone-ck.vercel.app/",
+    github: "https://github.com/Mhdd-24/Tesla-Clone",
     description:
-      "Developed a Python bot using Selenium to automate Instagram post engagement, achieving a 20% increase in profile visits.",
+      "A Tesla clone: High-performance EV with smart features. ⚡🚗",
   },
   {
-    title: "Quoter",
-    image: psg,
-    // link: "https://sendformto.me",
+    title: "Wine-Quality-Prediction",
+    image: wqp,
+    github: "https://github.com/Mhdd-24/Wine-Quality-Prediction",
     description:
-      "Built a performance for students to share quotes publicly, featuring real-time updates with sockets(20 % performance improvement through optimized code).",
+      "Wine quality prediction using ML, classification & outlier handling.",
   },
-  // {
-  //   title: "Fan Merch",
-  //   image:
-  //     "https://raw.githubusercontent.com/teshank2137/portfolio/v1/src/assets/images/fanmerch.png",
-  //   // github: "https://github.com/teshank2137/fanMerch",
-  //   // link: "https://fan-merch.vercel.app/",
-  //   description:
-  //     "A conceptual website for social media influence's to sell their merch.",
-  // },
-  // {
-  //   title: "Find Techie",
-  //   description:
-  //     "A Twitter bot that scans Twitter for job/intern posting and retweets top tweets daily.",
-  //   image:
-  //     "https://raw.githubusercontent.com/teshank2137/portfolio/v1/src/assets/images/Techie.png",
-  //   link: "https://twitter.com/FindTechie",
-  // },
-  // {
-  //   title: "React Infinite scroll",
-  //   description: "Infinite scrolling using custom hook and ObservableAPI",
-  //   image: scroll,
-  //   link: "https://react-infinite-scroll-nu.vercel.app/",
-  //   github: "https://github.com/teshank2137/react-infinite-scroll",
-  // },
-  // {
-  //   title: "Smart Attendance App",
-  //   description:
-  //     "A mobile app in which the user can track and mark attendance using face verification.",
-  //   image:
-  //     "https://raw.githubusercontent.com/teshank2137/portfolio/v1/src/assets/images/smartattendance.png",
-  //   github: "https://github.com/teshank2137/smartAtendence",
-  // },
-  // {
-  //   title: "Stock Market Prediction API",
-  //   description:
-  //     "An API Which predicts the next day's closing price of a stock.",
-  //   image: stonks,
-  //   github: "https://github.com/teshank2137/stockprediction",
-  // },
+  {
+    title: "Recipe App",
+    image: receipe,
+    link: "https://recipe-final-beta.vercel.app/",
+    github: "https://github.com/Mhdd-24/Recipe-App",
+    description:
+      "A React.js web app to discover global recipes! 🍽️",
+  },
+  {
+    title: "Diabetic-rectinopathy-detection",
+    description:
+      "Detecting retinal damage from diabetes using imaging & AI.",
+    image: drd,
+    link: "https://github.com/Mhdd-24/Diabetic-rectinopathy-detection",
+  },
+  {
+    title: "Dance Studio",
+    description: "DanceStudioManager streamlines scheduling, payments, and more.",
+    image: ds,
+    github: "https://github.com/Mhdd-24/Dance-Studio",
+  },
+  {
+    title: "IBM-Intern-Overflow",
+    description:
+      "AI enhances banking with fraud detection & automation.",
+    image: ibm,
+    github: "https://github.com/Mhdd-24/IBM-Intern-Overflow",
+  },
+  {
+    title: "VPT.ai-Intern-Overflow",
+    description:
+      "Web app for indexing & searching Tamil literary work.",
+    image: venmurasu,
+    github: "https://github.com/Mhdd-24/VPT.ai-Intern-Overflow",
+  },
   // {
   //   title: "Algorithm Visualizer",
   //   description: "Web App to visualize the searching and sorting algorithms",
@@ -79,5 +79,6 @@ export const projects = [
     description: "Built using ReactJS, ThreeJS, CSS3 and lots of ❤️ love.",
     image: portfolio,
     link: "https://mhdd-24.github.io/mhdd-portfolio/",
+    github: "https://github.com/Mhdd-24/mhdd-portfolio"
   },
 ];
