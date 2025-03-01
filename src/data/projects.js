@@ -78,6 +78,6 @@ export const projects = [
     title: "Portfolio",
     description: "Built using ReactJS, ThreeJS, CSS3 and lots of ❤️ love.",
     image: portfolio,
-    link: "https://www.v1.teshank.dev/",
+    link: "https://mhdd-24.github.io/mhdd-portfolio/",
   },
 ];
